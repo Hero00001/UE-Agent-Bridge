@@ -1,0 +1,10 @@
+# Build artifacts - never publish these
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+.vs/
+*.pdb
+*.obj
+*.exp
+*.lib

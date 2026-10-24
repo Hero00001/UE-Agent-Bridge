@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"FriendlyName": "UE Agent Bridge",
+	"Description": "Local HTTP bridge that lets AI coding agents (or any HTTP client) query and drive the UE 4.27 editor: list actors, run editor Python. Loopback development tool only.",
+	"Category": "Development",
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"CanContainContent": false,
+	"Installed": false,
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "UEAgentBridge",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Dependencies": [
+		{
+			"Name": "PythonScriptPlugin"
+		}
+	]
+}
